@@ -29,16 +29,15 @@ Note that as part of the submission, a top-down view of the board in the form of
 Once your draft has been made, before filing a pull request, you should try to render the page and make sure it build and appears as intended. To do so:
 
 ```bash
-./draft/publish myboard
-make serve LANG=en
+draft/publish.sh myboard
+make LANG=en serve
 ```
-
 And then open: http://127.0.0.1:5000 in your browser.
 
 Once you are happy with the result, 
 
 ```bash
-./draft/unpublish myboard
+/draft/unpublish myboard
 ```
 (this will file the overlay back into the draft folder, ready for review)
 
@@ -47,7 +46,7 @@ Once you are happy with the result,
 
 *note 2: if you are facing issues with your preview (board not showing, text update not appearing, etc.), you can fix it by erasing your browser's cache (image and cache file only).*
 
-If you feel that the requirements for submissions is beyond your current possibilities, you may raise an [issue]() requesting the addition of a specific board instead and we'll consider it!
+If you feel that the requirements for submissions is beyond your current possibilities, you may raise an issue requesting the addition of a specific board instead and we'll consider it!
 
 # Translating
 
@@ -67,19 +66,20 @@ make serve LANG=de
 
 And then open: http://127.0.0.1:5000 in your browser.
 
-The last step will be to submit your finished translation as a [pull request]() (this can include any number of boards, it does not have to be the entire line-up) and we'll get it live on its own *&lt;languagecode&gt;*.pinout.xyz subdomain.
+The last step will be to submit your finished translation as a pull request (this can include any number of boards, it does not have to be the entire line-up) and we'll get it live on its own *&lt;languagecode&gt;*.pinout.xyz subdomain.
 
 If you wish to provide a translation for an existing subdomain, or correct a typo in an existing markdown file, just edit the file in place (leaving the files in the `translate` folder for review, if you are pushing a translation).
 
-If you have a question about translations, raise an [issue]() and we'll be happy to help you get past whatever hurdle you may face!
+If you have a question about translations, raise an issue and we'll be happy to help you get past whatever hurdle you may face!
 
 
 # Roadmap &amp; wishlist
 
-* Add as many [boards]() as possible!
+* Add as many boards as possible!
 
 # Acknowledgement
 
-Maintainers: [@Gadgetoid](https://github.com/Gadgetoid) and [@RogueM](https://github.com/RogueM)
+96Boards pinout: [radhikap18](https://github.com/radhikap18)
+Pinout.xyz Maintainers: [@Gadgetoid](https://github.com/Gadgetoid) and [@RogueM](https://github.com/RogueM)
 
 
