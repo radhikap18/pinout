@@ -1,0 +1,163 @@
+---
+name: 96Boards GPIO Pinout
+pins:
+  
+  '1':
+    name: Ground
+    type: GND
+  
+  '2':
+    name: Ground
+    type: GND
+  
+  '3':
+    name: UART0_CTS  
+    type: UART
+  
+  '4':
+    name: PWR_BTN_N
+    type: "+5v"
+  
+  '5':
+    name: UART0_TxD
+    type: UART
+
+  '6':
+    name: RST_BTN_N
+    type: GPIO
+
+  '7':
+    name: UART0_RxD
+    type: UART
+
+  '8':
+    name: SPI0_SCLK
+    type: SPI
+  
+  '9':
+    name: UART0_RTS
+    type: UART
+  
+  '10':
+    name: SPI0_DIN
+    type: SPI
+  
+  '11':
+    name: UART1_TxD
+    type: UART
+  
+  '12':
+    name: SPI0_CS
+    type: SPI
+  
+  '13':
+    name: UART1_RxD
+    type: UART
+  
+  '14':
+    name: SPI0_DOUT
+    type: SPI
+  
+  '15':
+    name: I2C0_SCL
+    type: I2C
+  
+  '16':
+    name: PCM_FS
+    type: PCM
+
+  '17':
+    name: I2C0_SDA
+    type: I2C
+  
+  '18':
+    name: PCM_CLK
+    type: PCM
+
+  '19':
+    name: I2C1_SCL
+    type: I2C
+  
+  '20':
+    name: PCM_DO
+    type: PCM
+  
+  '21':
+    name: I2C1_SDA
+    type: I2C
+  
+  '22':
+    name: PCM_DI
+    type: PCM
+  
+  '23':
+    name: GPIO-A
+    type: GPIO
+  
+  '24':
+    name: GPIO-B
+    type: GPIO
+  
+  '25':
+    name: GPIO-C
+    type: GPIO
+
+  '26':
+    name: GPIO-D
+    type: GPIO
+  
+  '27':
+    name: GPIO-E
+    type: GPIO
+  
+  '28':
+    name: GPIO-F
+    type: GPIO
+  
+  '29':
+    name: GPIO-G
+    type: GPIO
+  
+  '30':
+    name: GPIO-H
+    type: GPIO
+  
+  '31':
+    name: GPIO-I
+    type: GPIO
+  
+  '32':
+    name: GPIO-J
+    type: GPIO
+  
+  '33':
+    name: GPIO-K
+    type: GPIO
+  
+  '34':
+    name: GPIO-L
+    type: GPIO
+  
+  '35':
+    name: +1V8
+    type: GPIO/SPI
+  
+  '36':
+    name: SYS_DCIN
+    type: GPIO
+  
+  '37':
+    name: +5V
+    type: GPIO
+  
+  '38':
+    name: SYS_DCIN
+    type: GPIO/SPI
+  
+  '39':
+    name: Ground
+    type: GND
+  
+  '40':
+    name: Ground
+    type: GND
